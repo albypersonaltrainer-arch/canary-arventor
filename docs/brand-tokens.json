@@ -1,0 +1,43 @@
+{
+  "brand": "CANARY ARVENTOR",
+  "descriptor": "INTERNATIONAL BUSINESS SERVICES",
+  "approvedLogo": "assets/brand/canary-arventor-logo-approved.png",
+  "approvedLogoSHA256": "02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0",
+  "status": "approved visual reference; do not edit",
+  "colors": {
+    "primary": "#0C1828",
+    "accent": "#BA985D",
+    "ivory": "#F4F1EA",
+    "slate": "#718096",
+    "deepNavy": "#081320"
+  },
+  "typography": {
+    "headline": {
+      "family": "Cinzel",
+      "weights": [
+        500
+      ]
+    },
+    "interface": {
+      "family": "Manrope",
+      "weights": [
+        400,
+        500,
+        600
+      ]
+    },
+    "logoRasterFont": "not reliably identifiable from PNG; never rebuild it from text"
+  },
+  "language": {
+    "default": "en",
+    "alternate": "es"
+  },
+  "websiteStatus": "bilingual static source prepared; deployment pending",
+  "vercelProject": {
+    "name": "canary-arventor",
+    "projectId": "prj_H3H6rDAGFx0CXv2MKBy9mWwgXQXY",
+    "teamId": "team_Uv1V104AN4K6Ha54ZYkWjrlT",
+    "status": "created; no deployment"
+  },
+  "githubRepository": "albypersonaltrainer-arch/canary-arventor"
+}
