@@ -9,7 +9,7 @@
 
 ## 1. Logotipo oficial INALTERABLE
 
-Archivo de referencia: `assets/brand/canary-arventor-logo-approved.png`.
+Archivo maestro aprobado por el usuario: `Imagen de ChatGPT 9 oct 2026, 17_11_43.png` (SHA-256 `02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0`), conservado en el paquete fuente. Versión web optimizada en GitHub: `assets/brand/canary-arventor-logo-web.webp`. El PNG maestro original todavía debe subirse al repositorio.
 
 Características:
 - Emblema abstracto **sin iniciales** de dos formas escultóricas doradas asimétricas; pieza mayor alta a la izquierda, menor a la derecha.
