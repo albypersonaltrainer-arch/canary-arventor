@@ -9,7 +9,7 @@
 
 ## 1. Logotipo oficial INALTERABLE
 
-Archivo maestro aprobado por el usuario: `Imagen de ChatGPT 9 oct 2026, 17_11_43.png` (SHA-256 `02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0`), conservado en el paquete fuente. Versión web optimizada en GitHub: `assets/brand/canary-arventor-logo-web.webp`. El PNG maestro original todavía debe subirse al repositorio.
+**Archivo maestro inalterado almacenado en GitHub:** `assets/brand/canary-arventor-logo-approved.png`, 1254 × 1254 píxeles, SHA-256 `02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0`. Coincide bit a bit con `Imagen de ChatGPT 9 oct 2026, 17_11_43.png` del usuario. La web usa este PNG maestro, no la versión antigua pequeña. Existe una variante opcional optimizada `assets/brand/canary-arventor-logo-hq.webp` (1000×1000, calidad alta), pero NO sustituye al original.
 
 Características:
 - Emblema abstracto **sin iniciales** de dos formas escultóricas doradas asimétricas; pieza mayor alta a la izquierda, menor a la derecha.
@@ -65,3 +65,8 @@ Norma: **no añadir otras fuentes arbitrarias**. Si se desea sustituir estas dos
 4. Comprobar contraste y accesibilidad.
 5. Verificar posibles colisiones de marca antes de uso comercial intensivo o registro.
 6. Solicitar aprobación explícita para publicar.
+## 9. Tamaños aprobados (opción B)
+- Portada escritorio: logotipo con ancho CSS máximo **300 px**.
+- Portada tableta: ancho máximo **265 px**.
+- Portada móvil pequeño: ancho máximo **232 px**.
+- Aire adicional para una presencia institucional discreta. Estas dimensiones se establecen en `assets/css/style.css`.
