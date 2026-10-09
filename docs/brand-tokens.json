@@ -1,7 +1,7 @@
 {
   "brand": "CANARY ARVENTOR",
   "descriptor": "INTERNATIONAL BUSINESS SERVICES",
-  "approvedLogo": "assets/brand/canary-arventor-logo-approved.png",
+  "approvedLogo": "assets/brand/canary-arventor-logo-web.webp",
   "approvedLogoSHA256": "02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0",
   "status": "approved visual reference; do not edit",
   "colors": {
@@ -32,12 +32,25 @@
     "default": "en",
     "alternate": "es"
   },
-  "websiteStatus": "bilingual static source prepared; deployment pending",
+  "websiteStatus": "Preview deployment built from GitHub and READY; legal review and domain mapping pending",
   "vercelProject": {
     "name": "canary-arventor",
     "projectId": "prj_H3H6rDAGFx0CXv2MKBy9mWwgXQXY",
     "teamId": "team_Uv1V104AN4K6Ha54ZYkWjrlT",
-    "status": "created; no deployment"
+    "previewUrl": "https://canary-arventor.vercel.app/",
+    "deploymentId": "dpl_4X2VcJj9VTjtnw8EveM3rsfpKoC3",
+    "gitIntegrationLinked": false
   },
-  "githubRepository": "albypersonaltrainer-arch/canary-arventor"
+  "githubRepository": "albypersonaltrainer-arch/canary-arventor",
+  "approvedLogoSource": {
+    "filename": "Imagen de ChatGPT 9 oct 2026, 17_11_43.png",
+    "sha256": "02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0",
+    "status": "Source master supplied by user; available in project source package; not uploaded to GitHub as PNG"
+  },
+  "approvedLogoWeb": {
+    "file": "assets/brand/canary-arventor-logo-web.webp",
+    "source": "lossy WebP preview derived from the exact original image without altering its geometry or composition",
+    "resolution": "420x420",
+    "gitBlobSha": "bce2ddb3e01c520b92427666947920f6daa30e88"
+  }
 }
