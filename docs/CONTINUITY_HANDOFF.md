@@ -9,3 +9,9 @@ Identidad web: Midnight Navy `#0C1828`; Satin Gold `#BA985D`; Executive Ivory `#
 Landing: inglés por defecto, español disponible; estética premium de lujo discreto, sin mención comercial de ninguna persona física, sin licencias/operaciones inventadas. No generar ni editar imágenes sin orden explícita del usuario. No programar ni publicar hasta que se autorice la fase correspondiente.
 
 Comprobar repositorio remoto y subir logo/guía/tokens antes de empezar implementación. Si el repositorio no existe, solicitar su creación; no usar otro repositorio como sustituto.
+### Repositorio y despliegue verificables
+- GitHub: https://github.com/albypersonaltrainer-arch/canary-arventor
+- Vista en Vercel: https://canary-arventor.vercel.app/
+- Español: https://canary-arventor.vercel.app/es/
+- Archivo de marca para web: `assets/brand/canary-arventor-logo-web.webp`; el PNG maestro original permanece en el paquete fuente, pendiente de incorporación a GitHub.
+- GitHub y Vercel son proyectos nuevos e independientes de todos los anteriores. El despliegue Git es funcional; la conexión de despliegue automático de commits todavía debe establecerse.
