@@ -1,7 +1,7 @@
 {
   "brand": "CANARY ARVENTOR",
   "descriptor": "INTERNATIONAL BUSINESS SERVICES",
-  "approvedLogo": "assets/brand/canary-arventor-logo-web.webp",
+  "approvedLogo": "assets/brand/canary-arventor-logo-approved.png",
   "approvedLogoSHA256": "02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0",
   "status": "approved visual reference; do not edit",
   "colors": {
@@ -32,7 +32,7 @@
     "default": "en",
     "alternate": "es"
   },
-  "websiteStatus": "Preview deployment built from GitHub and READY; legal review and domain mapping pending",
+  "websiteStatus": "Original PNG deployed in new premium-sized hero; custom domain and legal review pending",
   "vercelProject": {
     "name": "canary-arventor",
     "projectId": "prj_H3H6rDAGFx0CXv2MKBy9mWwgXQXY",
@@ -45,12 +45,23 @@
   "approvedLogoSource": {
     "filename": "Imagen de ChatGPT 9 oct 2026, 17_11_43.png",
     "sha256": "02ca07cac982cb0da369a913a436c0274b3d40d540a690763007ddee99299fc0",
-    "status": "Source master supplied by user; available in project source package; not uploaded to GitHub as PNG"
+    "status": "Exact original PNG stored in GitHub; git blob and SHA-256 verified",
+    "file": "assets/brand/canary-arventor-logo-approved.png",
+    "size": "1254x1254",
+    "bytes": 1853640
   },
   "approvedLogoWeb": {
-    "file": "assets/brand/canary-arventor-logo-web.webp",
-    "source": "lossy WebP preview derived from the exact original image without altering its geometry or composition",
-    "resolution": "420x420",
-    "gitBlobSha": "bce2ddb3e01c520b92427666947920f6daa30e88"
+    "file": "assets/brand/canary-arventor-logo-hq.webp",
+    "source": "Optional HQ derivative made directly from original PNG",
+    "resolution": "1000x1000",
+    "status": "Stored for optional use only; website displays unmodified original PNG",
+    "gitBlobSha": "ce9d8e176f9e240cd556338a3af9c6a420abe4c2"
+  },
+  "approvedLogoGitBlobSHA": "43322a2d250b2e8d93706d2ae28de7222a054d06",
+  "heroSizing": {
+    "desktopMaxCssPx": 300,
+    "tabletMaxCssPx": 265,
+    "mobileMaxCssPx": 232,
+    "visualDirection": "B: discreet premium"
   }
 }
