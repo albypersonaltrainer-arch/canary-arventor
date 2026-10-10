@@ -41,3 +41,76 @@
 }
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* CANARY ARVENTOR legal and privacy pages */
+.legal-page{background:var(--deep)}
+.legal-site-header{height:90px;background:rgba(8,19,32,.98);border-bottom:1px solid var(--rule-dark)}
+.legal-header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.legal-header-actions{display:flex;align-items:center;gap:27px}
+.legal-language{display:flex;align-items:center;gap:9px;font-size:.7rem;font-weight:700;letter-spacing:.09em}
+.legal-language a{text-decoration:none;color:#CDD7E1}
+.legal-language a[aria-current=page],.legal-language a:hover{color:var(--gold)}
+.legal-language span{color:#718096}
+.legal-back{font-size:.7rem;letter-spacing:.07em;text-decoration:none;border-bottom:1px solid var(--rule-dark);padding-bottom:6px}
+.legal-back span{color:var(--gold);margin-left:5px}
+.legal-back:hover{color:var(--gold)}
+.legal-hero{padding:94px 0 83px;background:radial-gradient(ellipse at 71% 25%,#152C45 0%,#0C1828 51%,#081320 100%)}
+.legal-hero-inner{max-width:1220px}
+.legal-hero .eyebrow{margin-bottom:27px}
+.legal-hero h1{font-size:clamp(2.2rem,4.5vw,4.65rem);max-width:950px;line-height:1.2;margin:0 0 33px;letter-spacing:-.015em}
+.legal-gold-line{width:87px;height:1px;background:var(--gold);margin-bottom:30px}
+.legal-hero p{max-width:720px;font-size:1rem;color:#BEC8D2;line-height:1.95;margin-bottom:40px}
+.legal-dateline{font-size:.65rem;color:#95A5B5;letter-spacing:.18em;text-transform:uppercase}
+.legal-content{background:var(--ivory);color:var(--navy);padding:92px 0 112px}
+.legal-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:clamp(55px,8vw,135px)}
+.legal-aside{position:sticky;align-self:start;top:30px;display:flex;flex-direction:column;gap:18px}
+.legal-aside-label{font-size:.63rem;color:#9A7947;text-transform:uppercase;letter-spacing:.24em;font-weight:700;margin:0 0 14px}
+.legal-aside>a{color:#425469;text-decoration:none;font-size:.74rem;line-height:1.55}
+.legal-aside>a:hover{color:#A4824D}
+.legal-aside-contact{border-top:1px solid var(--rule-light);margin-top:22px;padding-top:24px;display:flex;flex-direction:column;gap:10px}
+.legal-aside-contact span{text-transform:uppercase;letter-spacing:.16em;font-size:.59rem;color:#917249}
+.legal-aside-contact a{font-size:.74rem;color:#24384C;text-decoration:none;overflow-wrap:anywhere}
+.legal-sections{min-width:0}
+.legal-section{padding:0 0 53px;margin:0 0 55px;border-bottom:1px solid rgba(12,24,40,.18);scroll-margin-top:30px}
+.legal-section:last-child{border:0;margin-bottom:0;padding-bottom:0}
+.legal-section-index{font-size:.61rem;letter-spacing:.22em;color:#A18354;font-weight:700;margin-bottom:17px}
+.legal-section h2{font:500 clamp(1.35rem,2.3vw,2.1rem)/1.35 var(--heading);margin:0 0 23px;color:#0C1828}
+.legal-section p{font-size:.83rem;line-height:2.05;max-width:75ch;color:#4B5B69;margin:0 0 18px}
+.legal-section p:last-child{margin-bottom:0}
+.legal-section strong{font-weight:700;color:#263B50}
+.legal-section a{color:#93703B;text-underline-offset:3px}
+.legal-section a:hover{color:#61451E}
+@media(max-width:980px){
+.legal-site-header{height:76px}
+.legal-header-inner{gap:8px}
+.legal-header-actions{gap:14px}
+.legal-back{font-size:.63rem}
+.legal-layout{grid-template-columns:205px minmax(0,1fr);gap:42px}
+}
+@media(max-width:760px){
+.legal-site-header .brand-subline{display:none}
+.legal-site-header .header-emblem{width:30px;height:34px}
+.legal-header-actions{gap:10px}
+.legal-back{font-size:.65rem}
+.legal-hero{padding:72px 0 63px}
+.legal-hero p{font-size:.85rem}
+.legal-content{padding:65px 0 74px}
+.legal-layout{display:block}
+.legal-aside{position:static;border-bottom:1px solid var(--rule-light);padding-bottom:28px;margin-bottom:49px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.legal-aside-label{grid-column:1/-1;margin:0 0 10px}
+.legal-aside>a{font-size:.7rem}
+.legal-aside-contact{grid-column:1/-1;margin-top:14px;padding-top:21px}
+.legal-section{padding-bottom:37px;margin-bottom:39px}
+}
+@media(max-width:440px){
+.legal-site-header .wordmark{font-size:.68rem}
+.legal-site-header .header-emblem{width:25px;height:29px}
+.legal-site-header .brand-name{gap:4px}
+.legal-header-actions{gap:8px}
+.legal-language{font-size:.65rem;gap:6px}
+.legal-back{font-size:0;border-bottom:0;padding:8px 0}
+.legal-back span{font-size:1.3rem;margin:0}
+.legal-hero h1{font-size:1.9rem}
+.legal-hero{padding:61px 0 55px}
+.legal-aside{grid-template-columns:1fr 1fr;column-gap:20px}
+}
